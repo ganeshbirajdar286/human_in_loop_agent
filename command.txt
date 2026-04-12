@@ -1,0 +1,10 @@
+uv pip show langchain-tavily
+
+Using Python 3.14.3 environment at: Downloads\dev\python\gen3\.venv
+Name: langchain-tavily
+Version: 0.2.17
+Location: C:\Users\Dnyani\Downloads\dev\python\gen3\.venv\Lib\site-packages
+Requires: aiohttp, langchain, langchain-core, requests
+Required-by:
+(gen3) 
+-------------------------------------------------------------------------------------------------------------
