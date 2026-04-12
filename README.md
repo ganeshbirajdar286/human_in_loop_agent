@@ -1,4 +1,4 @@
-   # City Intelligence System
+# City Intelligence System
 
     An AI-powered agent that provides real-time weather and news information about cities using LangChain, Mistral AI, and Tavily search.
 
@@ -22,3 +22,10 @@
     ## Setup
 
     1. Install dependencies:
+    langchain
+
+    langchain-core
+    langchain-openai
+    python-dotenv
+    langchain-mistralai
+    langchain-community
