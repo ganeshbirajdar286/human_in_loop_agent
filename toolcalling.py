@@ -33,6 +33,7 @@ query=HumanMessage(prompt)
 messages.append(query)
 
 result=llm_with_tool.invoke(messages)
+print(result)
 messages.append(result)
 
 
