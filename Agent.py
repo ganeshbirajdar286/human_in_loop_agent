@@ -85,7 +85,7 @@ while True:
     messages.append(HumanMessage(content=user_input))
     while True:
         result=llm_with_tools.invoke(messages)
-        messages.append(result)
+        messages.append(AIMessage(content=result.content))
 
 
       #if tool is required
